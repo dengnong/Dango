@@ -1,1 +1,2 @@
 # Dango
+OpenCV, Face recognition
