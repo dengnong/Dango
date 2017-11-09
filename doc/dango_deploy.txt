@@ -1,0 +1,27 @@
+1. install maven libraries
+com.fasterxml.jackson.core:jackson-core:2.8.9
+com.fasterxml.jackson.core:jackson-databind:2.8.9
+javax.servlet:servlet-api:2.4
+commons-httpclient:commons-httpclient:3.1
+commons-fileupload:commons-fileupload:1.3.3
+org.openpnp:opencv:3.2.0-1
+
+2. Configure Tomcat local server
+
+3. Remove Spring module in Project Settings
+And re-add Spring & Spring MVC
+
+4. Run it!
+
+
+*****
+Link OpenCV lib with Tomcat
+VM options: -Djava.library.path=<path_of_lib>
+
+
+*****
+Build OpenCV under Linux/Mac OS
+1. install ant (> brew install ant)
+2. cmake -D BUILD_SHARED_LIBS=OFF .. (And check Java config set right)
+3. make -j8
+

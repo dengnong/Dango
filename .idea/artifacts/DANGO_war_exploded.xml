@@ -1,0 +1,40 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="DANGO:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/DANGO_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="DANGO/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="DANGO" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-4.3.9.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-4.3.9.RELEASE" />
+          <element id="library" level="project" name="com.fasterxml.jackson.core:jackson-core:2.8.9" />
+          <element id="library" level="project" name="com.fasterxml.jackson.core:jackson-databind:2.8.9" />
+          <element id="library" level="module" name="JUnit4" module-name="DANGO" />
+          <element id="library" level="project" name="commons-httpclient:commons-httpclient:3.1" />
+          <element id="library" level="project" name="org.openpnp:opencv:3.2.0-1" />
+          <element id="library" level="project" name="commons-fileupload:commons-fileupload:1.3.3" />
+          <element id="library" level="project" name="commons-dbcp:commons-dbcp:1.4" />
+          <element id="library" level="project" name="mysql:mysql-connector-java:6.0.6" />
+          <element id="library" level="project" name="javax.persistence:persistence-api:1.0" />
+          <element id="library" level="project" name="javax.validation:validation-api:1.1.0.Final" />
+          <element id="library" level="project" name="org.json:json:20140107" />
+          <element id="library" level="project" name="Spring Security-3.2.5" />
+          <element id="library" level="project" name="org.springframework.security.oauth:spring-security-oauth2:2.1.1.RELEASE" />
+          <element id="library" level="project" name="org.apache.httpcomponents:httpclient:4.5.3" />
+          <element id="library" level="project" name="org.apache.httpcomponents:fluent-hc:4.5.2" />
+          <element id="library" level="project" name="org.apache.oltu.oauth2:org.apache.oltu.oauth2.client:1.0.2" />
+          <element id="library" level="project" name="org.bytedeco:javacv-platform:1.3.3" />
+          <element id="library" level="project" name="com.squareup.okio:okio:1.13.0" />
+          <element id="library" level="project" name="com.alibaba:fastjson:1.2.38" />
+          <element id="library" level="project" name="opencv-320" />
+          <element id="library" level="project" name="com.squareup.okhttp3:okhttp:3.3.0" />
+          <element id="file-copy" path="I:/包/okhttp-3.9.0.jar" />
+        </element>
+      </element>
+      <element id="directory" name="uploads" />
+    </root>
+  </artifact>
+</component>
